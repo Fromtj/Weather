@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+       <div class="info1">
+        <div class="top">
+            <span class="location"></span>
+        </div>
+        <div class="bottom">
+            <div class="bottom_left">
+                <img class="weather" src="./images/clear.png" alt="">
+                <h1 class="temp">29°</h1>
+                <span class="abjective">Sunny</span>
+            </div>
+            <div class="bottom_right">
+                <h4 class="week_day">Monday</h4>
+                <h5 class="date">10 Jun 2023</h5>
+            </div>
+        </div>
+       </div>
+       <div class="search">
+        <input type="search" placeholder="Search" spellcheck="false">
+        <button><img src="./images/search.png" alt=""></button>
+       </div>
+       <div class="procent">
+        <div class="precipitian">
+            <span class="pr_procent">0%</span><br>
+            <p>PRECIPITION</p>
+        </div>
+        <div class="humidity">
+            <span class="hum_procent">42%</span><br>
+            <p>HUMIDITY</p>
+        </div>
+        <div class="wind">
+            <span class="w_pr">3 km/h</span><br>
+            <p>WIND</p>
+        </div>
+       </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
